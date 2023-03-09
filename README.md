@@ -1,46 +1,106 @@
-# Getting Started with Create React App
+<p align="center">
+  <img width="20%" src="./src/assets/logo.svg" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <strong>Aplicativo web de todo list.</strong>
+</p>
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/mateusabelli/ignite-todo-app">
+  <img alt="GitHub" src="https://img.shields.io/github/license/mateusabelli/ignite-todo-app">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/mateusabelli/ignite-todo-app">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mateusabelli/ignite-todo-app?style=social">
+</p>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> • 
+ <a href="#-layout">Layout</a> • 
+ <a href="#-tecnologias-utilizadas">Tecnologias</a> • 
+ <a href="#-instalação-e-uso">Instalação</a> • 
+ <a href="#-licença">Licença</a>
+</p>
 
-### `npm start`
+<h4 align="center"> 
+	🚧  Projeto concluído 🚀 🚧
+</h4>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Sobre o projeto
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Todo App foi criado para resolução do desafio do curso Ignite (trilha atualizada) da Rocketseat. Essa aplicação apesar de simples é um excelente exemplo para praticar o desenvolvimento de apps CRUD (Create, Read, Update, Delete).
 
-### `npm test`
+<p align="center">
+  <img src=".github/app-preview.gif">
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## ☑ Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x] Inserir tarefas
+  - [x] Inserção com enter
+  - [x] Verificação de campo vazio
+- [x] Alterar estado da tarefa
+  - [x] Marcar como concluído
+  - [x] Apagar tarefa
+- [x] Responsividade em telas menores
+  - [x] Redução do tamanho de fonte
+  - [x] Redução do tamanho de elementos
+- [x] Navegação total por teclado
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 Layout
 
-### `npm run eject`
+### Desktop
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="left"> 
+  <img src="./.github/desktop-screenshot.png" width="70%"">
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Mobile
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p align="left">       
+  <img src="./.github/mobile-screenshot-1.png" width="35%">
+  <img src="./.github/mobile-screenshot-2.png" width="35%">
+</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🔨 Tecnologias utilizadas
 
-## Learn More
+As seguintes ferramentas foram usadas na construção do projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **[ReactJS](https://reactjs.org/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+- **[Sass](https://sass-lang.com/)**
+- **[Vite](https://vitejs.dev/)**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Veja o arquivo [package.json](https://github.com/mateusabelli/ignite-todo-app/blob/main/package.json)
+
+
+## 🚀 Instalação e uso
+
+```bash
+# Clone o repositório
+git clone https://github.com/BrunoGabriel123/todo.git
+
+# Acesse a pasta do projeto
+cd ignite-todo-app
+
+# Instale as dependências
+yarn
+
+# Execute a aplicação
+yarn dev
+
+# O servidor inciará na porta:3000 - acesse http://localhost:3000
+```
+
+
+## 📝 Licença
+
+<a href="https://opensource.org/licenses/MIT">
+    <img alt="GitHub" src="https://img.shields.io/github/license/mateusabelli/ignite-todo-app">
+</a>
+
+ 
+
+Feito com 💜 por [Bruno Gabriel](https://github.com/BrunoGabriel123)
